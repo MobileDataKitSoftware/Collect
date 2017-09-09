@@ -1,0 +1,47 @@
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.dll
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+wwwroot/
+wwwroot*/
+node_modules/
+bower_components/
+bower_components*/
+node_modules*/
+bower_components/
+bower_components*/
+obj/
+[Rr]elease*/
+_ReSharper*/
+Data_Definition/
+Data_Definition*/
+[Tt]est[Rr]esult*
+.vs/
+#Nuget packages folder
+packages/
+MobileDataKit.Web/appsettings_connectionstring.Development.json
+MobileDataKit.Web/appsettings_connectionstring.Release.json
+MobileDataKit.Web/keyconnectionstringstring.json
+/MobileDataKit.WebApp/appsettings_connectionstring.Development.json

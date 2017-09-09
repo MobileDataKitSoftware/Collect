@@ -1,0 +1,23 @@
+﻿{
+  "dependencies": {
+    "FubarCoder.RestSharp.Portable.Core": "4.0.8",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.4.0",
+    "PCLCrypto": "2.0.147",
+    "Realm.Database": "1.6.0",
+    "sameerIOTApps.Plugin.SecureStorage": "1.2.2",
+    "Websockets.Pcl": "1.1.9",
+    "Xam.Plugin.Connectivity": "3.0.2",
+    "Xamarin.Forms": "2.3.4.267"
+  },
+  "frameworks": {
+    "uap10.0.10240": {}
+  },
+  "runtimes": {
+    "win10-arm": {},
+    "win10-arm-aot": {},
+    "win10-x86": {},
+    "win10-x86-aot": {},
+    "win10-x64": {},
+    "win10-x64-aot": {}
+  }
+}

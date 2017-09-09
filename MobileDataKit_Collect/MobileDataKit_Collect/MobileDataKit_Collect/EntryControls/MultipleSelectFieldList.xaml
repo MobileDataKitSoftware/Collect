@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<y:BaseControl xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:y="clr-namespace:MobileDataKit_Collect.EntryControls"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileDataKit_Collect.EntryControls.MultipleSelectFieldList">
+    <ContentPage.Content>
+        <StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  Padding="12"
+                                 AbsoluteLayout.LayoutFlags="PositionProportional"
+                                 AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1">
+            <Label x:Name="lb" Text="Welcome to Xamarin Forms!" FontSize="Large" LineBreakMode="WordWrap" FontAttributes="Bold" />
+            <ListView ItemSelected="listView_ItemSelected" x:Name="listView" SeparatorVisibility="Default">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <SwitchCell Text="{Binding Text}" On="{Binding Value}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Label x:Name="lblError"   LineBreakMode="WordWrap" Text="Welcome to Xamarin Forms!" />
+            <Button x:Name="btnMoveNext" Clicked="btnMoveNext_ClickedAsync">Next</Button>
+        </StackLayout>
+    </ContentPage.Content>
+</y:BaseControl>

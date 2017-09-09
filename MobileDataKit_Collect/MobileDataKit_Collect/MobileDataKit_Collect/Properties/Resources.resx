@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>{"Version":0.0,"Status":null,"VersionStatus":null,"Text":null,"Name":"M Vaccination","Fields":[{"FormID":null,"SectionID":null,"DependOn":null,"ShowInDashBoard":false,"FieldID":null,"Status":null,"Text":"Preliminary Information","ControlType":"Section","Name":"edc26477-c807-44e3-ab8a-144ddeb8e820","Required":false,"No":1,"Fields":[{"FormID":null,"SectionID":null,"DependOn":null,"ShowInDashBoard":false,"FieldID":null,"Status":null,"Text":"Facility Name ","ControlType":null,"Name":"Q1","Required":false,"No":0,"Fields":[],"Form":null,"FieldOptions":[]},{"FormID":null,"SectionID":null,"DependOn":null,"ShowInDashBoard":false,"FieldID":null,"Status":null,"Text":"Facility Type ","ControlType":null,"Name":"Q2","Required":false,"No":0,"Fields":[],"Form":null,"FieldOptions":[{"Field":null,"ID":"d575ce9b-4bcd-427d-a35d-87a5468d4689","FieldID":null,"Name":"Hospital","Value":"1","No":null,"Expression":null},{"Field":null,"ID":"40155b1d-3360-40c4-81c1-a922e2cbcf5c","FieldID":null,"Name":"Health Center","Value":"2","No":null,"Expression":null},{"Field":null,"ID":"5d104057-19c4-4d19-afe4-3d27322a0c09","FieldID":null,"Name":"Dispensary","Value":"3","No":null,"Expression":null}]},{"FormID":null,"SectionID":null,"DependOn":null,"ShowInDashBoard":false,"FieldID":null,"Status":null,"Text":"Region","ControlType":null,"Name":"Q3","Required":false,"No":0,"Fields":[],"Form":null,"FieldOptions":[{"Field":null,"ID":"0d428929-3593-4cf5-a451-bd9780450e86","FieldID":null,"Name":"Shinyanga","Value":"1","No":null,"Expression":null},{"Field":null,"ID":"8e2563a0-2c53-4bdf-a26f-a461649a453d","FieldID":null,"Name":"Geita","Value":"2","No":null,"Expression":null}]},{"FormID":null,"SectionID":null,"DependOn":"if Q3 == 2","ShowInDashBoard":false,"FieldID":null,"Status":null,"Text":"District","ControlType":null,"Name":"Q4ge","Required":false,"No":0,"Fields":[],"Form":null,"FieldOptions":[{"Field":null,"ID":"56b0a542-acea-47c6-8b1c-f11134bdbcbb","FieldID":null,"Name":"Bukombe","Value":"1","No":null,"Expression":null},{"Field":null,"ID":"497fbcaa-13b1-4777-b052-b27daaf1e301","FieldID":null,"Name":"Mbogwe","Value":"2","No":null,"Expression":null}]}],"Form":null,"FieldOptions":[]},{"FormID":null,"SectionID":null,"DependOn":"if Q3 == 1","ShowInDashBoard":false,"FieldID":null,"Status":null,"Text":"District","ControlType":null,"Name":"Q4shi","Required":false,"No":0,"Fields":[],"Form":null,"FieldOptions":[{"Field":null,"ID":"c0a9ace6-72bd-451e-b160-de3c4d300179","FieldID":null,"Name":"Kahama ","Value":"1","No":null,"Expression":null},{"Field":null,"ID":"3cc8bb95-303e-4bed-aa34-aa4468dc2a54","FieldID":null,"Name":"Msalala","Value":"2","No":null,"Expression":null}]},{"FormID":null,"SectionID":null,"DependOn":null,"ShowInDashBoard":false,"FieldID":null,"Status":null,"Text":"Ward","ControlType":null,"Name":"Q5","Required":false,"No":0,"Fields":[],"Form":null,"FieldOptions":[]}]}</value>
+  </data>
+</root>

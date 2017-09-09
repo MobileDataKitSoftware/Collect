@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>912441ef-c7fd-41c4-96b4-f479c7ed00c9</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MobileDataKit.Core</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EndOfRepeatException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EntryTransaction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\FlowManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Flow\FlowResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Flow\IParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Flow\IParseTree.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Cards\LocalFormCard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\CurrentFieldTrack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\DataEntrySession.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\EncryptedObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\EncryptedObjectRecepient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\EntryForm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\EntryVariable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Field.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\FieldOption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Form.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ISection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Project.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\EndPoints\RemoteFormEndPoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\SessionObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Visual\BaseElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Visual\Form.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Visual\Group.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Visual\ICollector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Visual\Input.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Visual\Label.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Visual\MultiSelect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Visual\SelectVisual.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Visual\SingleSelect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Visual\SingleSelectItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Model\EndPoints\" />
+  </ItemGroup>
+</Project>
